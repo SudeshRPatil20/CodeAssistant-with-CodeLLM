@@ -1,6 +1,7 @@
 import requests
 import json 
 import gradio as gt
+import os
 
 url="http://localhost:11434/api/generate"
 
