@@ -43,5 +43,5 @@ interface=gt.Interface(
     
 )
 
-port = int(os.environ.get("PORT", 10000))
+port = int(os.environ.get("PORT", 7860))  # 7860 is default for local
 interface.launch(server_name="0.0.0.0", server_port=port)
